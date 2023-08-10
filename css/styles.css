@@ -1,0 +1,78 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; 
+    scroll-snap-type: y mandatory;}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0097A7;
+    color: white;
+    margin: 5rem;
+    padding: 5rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 8rem;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.748);
+    border-radius: 3px;
+    color: rgb(207, 20, 20);
+    text-align: center;
+}
+
+button {
+    background-color: #FFC107;
+    display: block;
+    padding: 1rem 2rem;
+    width: 200px;
+    margin: 2rem auto;
+    border-radius: 50px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+button:disabled {
+    background-color: #DFE9F3;
+    cursor: not-allowed;
+    display: block;
+    padding: 1rem 2rem;
+    width: 200px;
+    margin: 2rem auto;
+
+
+#timer {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#retryButton {
+    display: none;
+    margin-top: 20px;
+    display: block;
+    padding: 1rem 2rem;
+    width: 200px;
+    margin: 2rem auto;
+}
+}

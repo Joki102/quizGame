@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Quiz Game</h1>
+    <p>INSTRUCCIONES: responda las preguntas dentro del cuadro de texto
+        OJO: solo se aceptan preguntas con 5 caracteres o mas.
+    </p>
+    <p>SUERTE EMPECEMOS!!!!</p>
+    <p id="timer">Tiempo restante: 30 segundos</p>
+    <div class="question">
+        <p>Pregunta 1: ¿Cuál es la capital de Guatemala?</p>
+        <input type="text" id="answer1" required minlength="5">
+    </div>
+    <div class="question">
+        <p>Pregunta 2: ¿Cúales son los colores primarios?</p>
+        <input type="text" id="answer2" required minlength="5">
+    </div>
+    <div class="question">
+        <p>Pregunta 3: ¿Cúales son los simbolos patrios de Guatemala?</p>
+        <input type="text" id="answer3" required minlength="5">
+    </div>
+    <div class="question">
+        <p>Pregunta 4: ¿Qué nombres hay con la letra J?</p>
+        <input type="text" id="answer4" required minlength="5">
+    </div>
+    <div class="question">
+        <p>Pregunta 5: ¿Cuál es la fecha de independencia en Guatemala?</p>
+        <input type="text" id="answer5" required minlength="5">
+    </div>
+    <button id="startButton">Iniciar</button>
+    <button id="submitButton" disabled>Enviar Respuestas</button>
+    <button id="retryButton" style="display: none;">Intentar de Nuevo</button>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
